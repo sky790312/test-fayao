@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  /* background-image: url('./assets/images/main-bg.jpg'); */
+  /* background-size: cover; */
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 24px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app .el-input__wrapper {
+  border: 2px solid #3a1c1c;
+}
+
+#app .el-radio.el-radio--large .el-radio__label {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3a1c1c;
+}
+
+#app .el-radio.el-radio--large .el-radio__inner {
+  width: 24px;
+  height: 24px;
+  font-weight: 700;
+}
+
+#app .el-checkbox__input {
+  border: 1px solid #3a1c1c;
+}
+
+#app .el-checkbox__label {
+  font-size: 20px;
+  font-weight: 400;
+  color: #3a1c1c;
+}
+
+#app .el-select--large .el-select__wrapper {
+  height: 60px;
+  padding: 0 40px;
+  border-radius: 20px;
+}
+
+#app .el-select__placeholder.is-transparent,
+#app .el-select--large .el-select__caret {
+  font-size: 24px;
+  color: black;
+}
+
+#app .el-progress-bar__outer {
+  background-color: #132b35;
+}
+
+#app .el-progress-bar__inner {
+  background-color: #32d5b2;
+}
+
+#app .el-progress-bar__innerText {
+  margin: 0px 12px 0 0;
+}
+
+#app .el-radio-button__inner {
+  border: none;
+}
